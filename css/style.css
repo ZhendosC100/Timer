@@ -1,0 +1,52 @@
+@import url(fonts.css);
+
+
+.timer{
+    border: 1px solid rgba(255, 95, 3, 0.801);
+    border-radius: 3em;
+    box-shadow: 0 0 15px 4px rgba(255, 95, 3, 0.801);
+    background: radial-gradient(closest-side, #c9e453, #ebf8e1, #f69d3c);
+    color: #0e055e;
+    margin: 0 auto;
+    font-family: "Lobster";
+    width: 30em;
+    height: 12em;
+    text-align: center;
+}
+
+.timer_cont {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+p {
+    padding: 0  0 3px 1px;
+}
+
+span{
+    font-size: 3em;
+    color: #1038ec;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 15%;
+    box-shadow: 0 0 5px 5px #1038ec;
+    height: 4.5em;
+    width: 70px;
+    padding: 4px;
+    margin: 3px;
+}
+
+.days, .hours, .minutes, .seconds{
+    margin: 0 auto;
+    background-image: url(../img/screenshot_54.png);
+    color: rgb(81, 247, 227);
+    height: 1.4em;
+    width: 66px;
+    font-family: "Segoe";
+    font-size: 3em;
+    letter-spacing: 0.2em;
+}

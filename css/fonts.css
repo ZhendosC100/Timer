@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "Lobster";
+	src: url("../fonts/lobster_1_4.woff2") format("woff2"), url("../fonts/lobster_1_4.woff") format("woff2") ;
+}
+
+@font-face {
+	font-family: "Segoe";
+	src: url("../fonts/segoewpn.woff2") format("woff2"), url("../fonts/segoewpn.woff") format("woff2") ;
+}
