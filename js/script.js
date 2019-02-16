@@ -1,4 +1,4 @@
-let deadLine = '2019-02-07';
+let deadLine = '2019-04-07';
 
     const getTimeRemaining = (endtime) => {
         let t = Date.parse(endtime) - Date.parse(new Date()), //.parse превращает любую дату в мс  и используем для остановки таймера как только t<=0 таймер останавливатеся 
